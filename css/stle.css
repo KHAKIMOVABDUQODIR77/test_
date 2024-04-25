@@ -116,6 +116,10 @@ p::selection {
 	padding-bottom: 160px;
 }
 
+.site-logo {
+	padding-right: 100px;
+}
+
 .hero {
 	background-color: #252420;
 	color: #fff;
@@ -207,11 +211,6 @@ p::selection {
 .main-info__icon {
 	width: 100px;
 	height: 100px;
-	background-color: rgba(255, 117, 0, 0.2);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
 	margin-bottom: 32px;
 }
 
@@ -357,4 +356,8 @@ p::selection {
 
 .site-footer__bootm-link:active {
 	opacity: 0.6;
+}
+
+.site-logo-link {
+	margin-bottom: 30px;
 }
